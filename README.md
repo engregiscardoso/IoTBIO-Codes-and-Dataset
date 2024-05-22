@@ -29,3 +29,16 @@ The analysis is conducted in a Jupyter notebook available in the `notebooks` dir
 
 Pre-processing on the data has already been done. 
 
+## Repository
+
+| File Name                       | Description                                        |
+|---------------------------------|----------------------------------------------------|
+| 'Sample_40bio.csv'              | Sequence of day the measurements were taken        |
+| 'Sample_80bio.csv'              | Test sample with 40% biodegradability polymer      |
+| 'Sample_100bio.csv'             | Test sample with 80% biodegradability polymer      |
+| 'Data_Sample_Serie_Values.csv'  | Serialized values for training                     |
+| 'Data_Samples.csv'              | Experimental data used for the analysis            |
+|  model_saved                    | Trained model                                      |
+|  `Bio.ipynb`                    | Python notebook                                    |
+
+
