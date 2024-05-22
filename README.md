@@ -12,7 +12,7 @@ The dataset is provided in the directory and consists of the following CSV files
 
 - `Data_Samples.csv`: Contains the experimental data used for the analysis.
 
-The structure of `biodegradation_data.csv` is as follows:
+The structure of `Data_Samples.csv` is as follows:
 
 | Column Name     | Description                                  |
 |-----------------|----------------------------------------------|
