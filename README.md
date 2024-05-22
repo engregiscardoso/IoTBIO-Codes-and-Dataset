@@ -41,4 +41,6 @@ Pre-processing on the data has already been done.
 |  model_saved                    | Trained model                                      |
 |  `Bio.ipynb`                    | Python notebook                                    |
 
+## Observations
 
+Whenever we train a new model, the resulting values will differ due to a combination of factors intrinsic to the machine learning process. Firstly, the random initialization of weights can lead to different optimization paths, resulting in varied solutions. Additionally, the use of regularization techniques such as dropout introduces an extra layer of variability, affecting how the model learns from the training data. Minor changes in the input data or the order of example presentation can also significantly impact the final results. These elements combined create a scenario where each training run, even under the same general conditions, generates a unique set of parameters, leading to variations in the values produced by the model.
