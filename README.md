@@ -43,4 +43,8 @@ Pre-processing on the data has already been done.
 
 ## Observations
 
-Whenever we train a new model, the resulting values will be different due to a combination of factors intrinsic to the machine learning process. Firstly, random initialization of weights can lead to different optimization paths, resulting in varied solutions. Additionally, using regularization techniques such as dropout introduces an extra layer of variability, affecting how the model learns from the training data. Small changes to the input data or the order in which examples are presented can also have an impact. The combination of these elements creates a scenario where each training run, even under the same general conditions, generates a unique set of parameters, leading to variations in the values produced by the model. However, once the hyperparameters are adjusted, variations should be small without significant impact on the results.
+1) Whenever we train a new model, the resulting values will be different due to a combination of factors intrinsic to the machine learning process. Firstly, random initialization of weights can lead to different optimization paths, resulting in varied solutions. Additionally, using regularization techniques such as dropout introduces an extra layer of variability, affecting how the model learns from the training data. Small changes to the input data or the order in which examples are presented can also have an impact. The combination of these elements creates a scenario where each training run, even under the same general conditions, generates a unique set of parameters, leading to variations in the values produced by the model. However, once the hyperparameters are adjusted, variations should be small without significant impact on the results.
+
+2) The owner of dataset and the compost used to predict the biodegradability are protected under contract.
+
+3) The developed code and dataset are anonymised version.
